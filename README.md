@@ -12,20 +12,33 @@ A browser extension that displays total duration and video count for YouTube pla
 
 ## Installation
 
-### Chrome/Edge
+### Firefox (Recommended - Official Release)
 
-1. Download or clone this repository
-2. Open Chrome/Edge and navigate to `chrome://extensions/` (or `edge://extensions/`)
-3. Enable "Developer mode" in the top-right corner
-4. Click "Load unpacked"
-5. Select the `chrome` folder from this repository
+**[Install from Firefox Add-ons Store](https://addons.mozilla.org/en-US/firefox/addon/ytpla/)**
 
-### Firefox
+Simply click the link above and add the extension to Firefox with one click!
+
+### Chrome/Edge (Manual Installation Required)
+
+> **Note**: Due to the $5 Chrome Web Store developer fee, this extension is not available on the Chrome Web Store. Please install it manually using the steps below.
+
+1. **Download the extension**: [chrome.0.0.1.zip](https://github.com/NamanS4ini/YTPLA-Extention/releases/download/Chrome/chrome.0.0.1.zip)
+2. Extract the downloaded ZIP file to a folder on your computer
+3. Open Chrome/Edge and navigate to `chrome://extensions/` (or `edge://extensions/`)
+4. Enable "Developer mode" using the toggle in the top-right corner
+5. Click "Load unpacked"
+6. Select the extracted `chrome` folder
+7. The extension is now installed! You should see the YouTube Playlist Analyzer icon in your extensions bar
+
+### Firefox (Manual Installation - Development Mode)
+
+If you want to install from source or test development versions:
 
 1. Download or clone this repository
 2. Open Firefox and navigate to `about:debugging#/runtime/this-firefox`
 3. Click "Load Temporary Add-on"
 4. Navigate to the `firefox` folder and select the `manifest.json` file
+5. **Note**: This installation is temporary and will be removed when Firefox restarts
 
 ## How It Works
 
